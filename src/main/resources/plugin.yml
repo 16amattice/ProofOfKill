@@ -1,0 +1,11 @@
+name: ProofOfKill
+version: ${project.version}
+main: me.kyrxstudios.proofofkill.ProofOfKill
+api-version: 1.13
+softdepend: [Vault]
+commands:
+  proofofkill:
+    description: The base command
+    usage: /<command>
+    permission: proofofkill.relaod
+    permission-message: You don't have permission to reload ProofOfKill
